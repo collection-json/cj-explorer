@@ -1,4 +1,4 @@
 cj-explorer
 ===========
 
-generic explorer client for collection+json servers
+A generic explorer client for collection+json servers

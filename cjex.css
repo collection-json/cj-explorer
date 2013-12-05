@@ -1,0 +1,50 @@
+/* cjex.css */
+body {
+  font-family: sans-serif;
+}
+
+#header {
+  height:10%;
+}
+#header h1 {
+  margin-bottom:0;
+  padding-bottom:0;
+}
+#header form {
+  width:100%;
+}
+#header form input.url {
+  width:90%%;
+}
+#header form input.submit {
+  width:8%;
+}
+
+#main {
+  height:85%
+}
+
+#items {
+  width:50%;
+  float:left;
+  overflow:auto;
+}
+#queries {
+  width:50%;
+  overflow:auto;
+  float:right;
+}
+hr.clear {
+  clear:both;
+  display:none;
+}
+
+#footer {
+  height:5%;
+}
+#footer p.announce {
+  margin:auto;
+  text-align:center;
+}
+
+

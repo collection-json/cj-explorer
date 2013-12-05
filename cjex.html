@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>Collection+JSON Explorer</title>
+    <link href="cjex.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="header">
+      <h1>Collection+JSON Explorer</h1>
+      <form action="get" href="#" class="startingUrl">
+        <input name="url" value="" placeholder="http://" class="url"/>
+        <input type="submit" value="Go" class="submit"/>
+      </form>
+      <hr />
+    </div>
+    <div id="main">
+      <div id="items">
+        <h2>Items</h2>
+      </div>
+      <div id="queries">
+        <h2>Queries</h2>
+      </div>
+      <hr class="clear" />
+    </div>
+    <div id="footer">
+      <p class="announce">
+        <span class="home">
+          Source: 
+          <a href="https://github.com/collection-json/cj-explorer"
+            target="cj-explorer">
+            https://github.com/collection-json/cj-explorer
+          </a>
+        </span>
+      </p>
+    </div>
+
+    <div id="template" style="display:none;">
+    </div>
+    <div id="error" style="display:none;">
+    </div>
+  </body>
+</html>
