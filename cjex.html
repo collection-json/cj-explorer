@@ -2,6 +2,7 @@
   <head>
     <title>Collection+JSON Explorer</title>
     <link href="cjex.css" rel="stylesheet" />
+    <script src="cjex.js">//na</script> 
   </head>
   <body>
     <div id="header">
@@ -10,13 +11,12 @@
         <input name="url" value="" placeholder="http://" class="url"/>
         <input type="submit" value="Go" class="submit"/>
       </form>
-      <hr />
     </div>
     <div id="main">
-      <div id="items">
+      <div id="items" class="init">
         <h2>Items</h2>
       </div>
-      <div id="queries">
+      <div id="queries" class="init">
         <h2>Queries</h2>
       </div>
       <hr class="clear" />
@@ -33,9 +33,9 @@
       </p>
     </div>
 
-    <div id="template" style="display:none;">
+    <div id="template" style="display:none;" class="init">
     </div>
-    <div id="error" style="display:none;">
+    <div id="error" style="display:none;" class="init">
     </div>
   </body>
 </html>
